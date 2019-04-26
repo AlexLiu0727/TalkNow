@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration[
+<!ELEMENT configuration (server_ip+,server_port?)>
+<!ELEMENT server_ip (#PCDATA)>
+<!ELEMENT server_port (#PCDATA)>
+]>
+<configuration>
+	<server_ip>192.168.1.108</server_ip>
+	<server_port>8888</server_port>
+</configuration>
